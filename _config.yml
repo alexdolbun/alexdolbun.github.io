@@ -1,5 +1,67 @@
-url: "https://alexdolbun.com"
-theme: 
-  - jekyll-theme-minimal
+url: "https://alexdolbun.com" # the base hostname & protocol for our sites
+
+# Site
+repository: alexdolbun/alexdolbun.github.io
+favicon: resources/favicon.ico
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Personal info
+name: Aleksey Dolgikh
+title: Technical and strategic mastermind at UnicornWitnesses.com and 🔝 alexdolbun.com REMOTE Team Lead In Software quality assurance include automation. OSS, ITIL, DevOps, BDD, CICD, GIT, Web, Doc/Spec, Requirements/Tasks, Workflow, Pipeline
+email: alexdolbun@icloud.com
+website: https://learning-sarah.tistory.com/
+
+# Social links
+github_username:  seoha-kim
+linkedin_username: kseoha7
+
+# Additional icon links
+additional_links:
+- title: tistory
+  icon: fas fa-blog
+  url: https://learning-sarah.tistory.com/
+  
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  <br><br><br>
+  I majored in Business Administration and Cognitive Science at Yonsei University.<br>
+  My interests focus on Deep Learning and Computer Vision.<br>
+  Particularly I am interested in applying __Deep Learning__ to __3D Vision/HCI/XR__.<br>
+  <br><br><br>
+  
+# Education Section
+educaton_title: Education
+
+# Experience Section
+experience_title: Experience
+
+# Projects Section
+projects_title: Projects
+
+# More Section
+# more_title: A Little More About Me
+more_content: 
+My Technical Stack is as below 
+   - Pytorch <br>
+   - TensorFlow <br>
+   - Scikit-learn <br>
+   - Spark <br>
+   - Tableau <br>
+   
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
 plugins:
-  - jekyll-sitemap
+ - jekyll-seo-tag
+ - jekyll-sitemap
